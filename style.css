@@ -66,19 +66,21 @@ nav a:hover{
     width: 70px;
     position: relative;
   animation-name: example;
-  animation-duration: 4s;
-  animation-iteration-count: infinite;.
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+
 }
 .spaceship img{
     height: 300px;
     width: 300px;
     position: relative;
     animation-name: example;
-    animation-duration: 4s;  
-    animation-fill-mode: forwards;
-    animation-iteration-count: infinite;.
+    animation-duration: 3s;  
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
 @keyframes example {
-    from {top: 0px;}
-    to {top: 100px; background-color:none;}
+    from {top: -100px;}
+    to {top: 0px; background-color:none;}
   }
